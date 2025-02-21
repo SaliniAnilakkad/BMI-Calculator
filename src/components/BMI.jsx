@@ -56,13 +56,13 @@ function BMI() {
       <input type="number" placeholder='Enter weight' min="0" value={weight} onChange={(e) => setWeight(e.target.value)}></input>
       
       <div className='button-container'>
-        <button onClick={bmicalculator}>Submit</button>
-        <button onClick={reset}>Reset</button>
+        <button className="submit-btn" onClick={bmicalculator}>Submit</button>
+        <button className="reset-btn" onClick={reset}>Reset</button>
       </div>
   
       {bmi !== null && (
         <div className='result'>
-          <h3>Your BMI: {bmi.toFixed(2)}</h3>
+          <h3>BMI: {bmi.toFixed(2)}</h3>
           <h3>Category: {category}</h3>
         </div>
       )}
