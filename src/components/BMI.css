@@ -69,20 +69,20 @@ button {
 
 /* Submit button */
 .submit-btn {
-    background-color: #98c6a9; /* Muted green-blue */
+    background-color: #98c6a9 !important; /* Muted green-blue */
 }
 
 .submit-btn:hover {
-    background-color: #8dc9bb; /* Darker shade */
+    background-color: #8dc9bb !important; /* Darker shade */
 }
 
 /* Reset button */
 .reset-btn {
-    background-color: #d49a9a; /* Muted brownish-red */
+    background-color: #d49a9a !important; /* Muted brownish-red */
 }
 
 .reset-btn:hover {
-    background-color: #c89999; /* Darker shade */
+    background-color: #c89999 !important; /* Darker shade */
 }
 
 /* BMI result styling */
