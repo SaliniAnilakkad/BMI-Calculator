@@ -107,11 +107,12 @@ button {
     .button-container {
         display: flex;
         flex-direction: column;
-        gap: 1px; /* Adds spacing between buttons */
+        gap: 5px; /* Adds spacing between buttons */
     }
 
     button {
         width: 100%; /* Makes buttons full width on mobile */
         padding: 10px;
+        margin: 0;
     }
 }
